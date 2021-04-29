@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+  font-weight: 600px;
+  }
+ 
+    body{
+    background-image: url("fundo.jpg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+figure{
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 1px;
+  border:thin silver solid;
+  margin: 5px;
+  padding: 3px;
+  background-color:red;
+  border: 10px solid black;
+  border-radius: 30px;
+  margin-left: 3cm;
+}
+
+main{
+  display: flex;
+  right: 100px;
+  margin-top: 2cm;
+}
+   
+.personagens{
+  width: 200px;    
+}
+.personagens:hover{
+  border:black 10px solid;
+    transition: 1s;
+    border-image-slice: fill;
+}
+figure:hover{
+  background-color: white;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 43%;
+  margin-top: 1cm;
+  border-radius: 12px;
+  box-shadow: 20 20px 30px 0 white 20 20px 30px 10 white;
+}
+.button:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(228, 228, 228, 0.973), 0 17px 50px 0 rgba(233, 225, 225, 0.822);
+}
+.button2{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 46%;
+  border-radius: 12px;
+  box-shadow: 20 20px 30px 0 white 20 20px 30px 10 white;
+}
+.button2:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(228, 228, 228, 0.973), 0 17px 50px 0 rgba(233, 225, 225, 0.822);
+}
+#demo1{
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 1px;
+  border:thin silver solid;
+  margin: 5px;
+  padding: 3px;
+  background-color:red;
+  border: 10px solid black;
+  border-radius: 30px;
+  margin-left: 3cm
+}
+  
+
